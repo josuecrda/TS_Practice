@@ -10,9 +10,10 @@ interface IPersonaje {
     nombre: string,
     tipo: string,
     edad: number,
-    ataques: string[]
-    volador: boolean
-    legendario?: boolean
+    ataques: string[],
+    volador: boolean,
+    legendario?: boolean,
+    hp: number
 }
 
 const personaje: IPersonaje = {
@@ -21,8 +22,8 @@ const personaje: IPersonaje = {
     tipo: "luchador",
     edad: 21,
     ataques: ["Salto", "Cura", "Golpe"],
-    volador: false
-
+    volador: false,
+    hp: 65
 }
 
 
